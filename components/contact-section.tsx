@@ -1,4 +1,4 @@
-import { ArrowUpRight, Mail } from 'lucide-react'
+import { ArrowUpRight, Mail, Phone } from 'lucide-react'
 import { site } from '@/lib/site'
 
 const reasons = [
@@ -24,7 +24,14 @@ export function ContactSection() {
               className="inline-flex items-center gap-2 rounded-md bg-primary-foreground px-5 py-3 text-sm font-medium text-primary transition-opacity hover:opacity-90"
             >
               <Mail className="size-4" aria-hidden="true" />
-              {site.email}
+              <span className="break-all">{site.email}</span>
+            </a>
+            <a
+              href={site.phoneHref}
+              className="inline-flex items-center gap-2 rounded-md border border-primary-foreground/30 px-5 py-3 text-sm font-medium transition-colors hover:bg-primary-foreground/10"
+            >
+              <Phone className="size-4" aria-hidden="true" />
+              {site.phone}
             </a>
             <a
               href={site.linkedinUrl}
@@ -54,7 +61,9 @@ export function ContactSection() {
             {'© '}
             {new Date().getFullYear()} {site.name}
           </p>
-          <p>{site.location}</p>
+          <a href={site.linkedinUrl} target="_blank" rel="noopener noreferrer" className="hover:underline">
+            linkedin.com/in/{site.linkedinHandle}
+          </a>
         </div>
       </footer>
     </section>
