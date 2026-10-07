@@ -4,7 +4,7 @@ export const site = {
   phone: '815-321-2985',
   phoneHref: 'tel:+18153212985',
   substackName: 'Writefully So',
-  substackUrl: 'https://writefullyso.substack.com',
+  substackUrl: 'https://substack.com/@kirbyljordan',
   linkedinUrl: 'https://www.linkedin.com/in/kirbythenerdy',
   linkedinHandle: 'kirbythenerdy',
 }
