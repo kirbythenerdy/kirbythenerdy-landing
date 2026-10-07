@@ -3,7 +3,8 @@ export const site = {
   email: 'Kirbyjordan2026@u.northwestern.edu',
   phone: '815-321-2985',
   phoneHref: 'tel:+18153212985',
-  substackUrl: 'https://substack.com',
+  substackName: 'Writefully So',
+  substackUrl: 'https://writefullyso.substack.com',
   linkedinUrl: 'https://www.linkedin.com/in/kirbythenerdy',
   linkedinHandle: 'kirbythenerdy',
 }
