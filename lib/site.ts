@@ -1,9 +1,11 @@
 export const site = {
-  name: 'Your Name',
-  email: 'hello@example.com',
-  substackUrl: 'https://substack.com',
-  linkedinUrl: 'https://www.linkedin.com',
-  location: 'Your City',
+  name: 'Kirby L. Jordan',
+  email: 'Kirbyjordan2026@u.northwestern.edu',
+  phoneHref: 'tel:+18153212985',
+  substackName: 'Writefully So',
+  substackUrl: 'https://substack.com/@kirbyljordan',
+  linkedinUrl: 'https://www.linkedin.com/in/kirbythenerdy',
+  linkedinHandle: 'kirbythenerdy',
 }
 
 export const threads = [

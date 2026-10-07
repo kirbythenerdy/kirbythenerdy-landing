@@ -43,10 +43,11 @@ export function WritingSection() {
           <div className="flex flex-col gap-10">
             <article className="flex flex-col gap-4 rounded-lg bg-primary p-8 text-primary-foreground">
               <p className="text-xs font-medium uppercase tracking-[0.25em] opacity-80">
-                Substack · Launching soon
+                Substack · First posts coming soon
               </p>
-              <h3 className="font-serif text-3xl">
-                <span className="italic">P.S.</span> — the postscript
+              <h3 className="flex flex-col gap-1 font-serif">
+                <span className="text-3xl italic">{site.substackName}</span>
+                <span className="text-lg opacity-80">the postscript</span>
               </h3>
               <p className="leading-relaxed opacity-90">
                 The memoir ends; the living doesn&apos;t. The Substack picks up where the last
@@ -59,7 +60,7 @@ export function WritingSection() {
                 rel="noopener noreferrer"
                 className="inline-flex w-fit items-center gap-2 rounded-md bg-primary-foreground px-4 py-2.5 text-sm font-medium text-primary transition-opacity hover:opacity-90"
               >
-                Subscribe on Substack
+                Subscribe to {site.substackName}
                 <ArrowUpRight className="size-4" aria-hidden="true" />
               </a>
             </article>
