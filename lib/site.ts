@@ -1,7 +1,6 @@
 export const site = {
   name: 'Kirby L. Jordan',
   email: 'Kirbyjordan2026@u.northwestern.edu',
-  phone: '815-321-2985',
   phoneHref: 'tel:+18153212985',
   substackName: 'Writefully So',
   substackUrl: 'https://substack.com/@kirbyljordan',

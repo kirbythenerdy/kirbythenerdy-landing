@@ -31,7 +31,7 @@ export function ContactSection() {
               className="inline-flex items-center gap-2 rounded-md border border-primary-foreground/30 px-5 py-3 text-sm font-medium transition-colors hover:bg-primary-foreground/10"
             >
               <Phone className="size-4" aria-hidden="true" />
-              {site.phone}
+              Phone
             </a>
             <a
               href={site.linkedinUrl}
