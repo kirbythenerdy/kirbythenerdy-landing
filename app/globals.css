@@ -31,27 +31,27 @@
   --radius-xl: calc(var(--radius) * 1.4);
 }
 
-/* Palette: sage paper, ink, forest green, seal ochre */
+/* Palette: paper white, ink, hunter green, hot pink */
 :root {
   color-scheme: light;
-  --background: #eef0ea;
-  --foreground: #1c2321;
-  --card: #f7f8f4;
-  --card-foreground: #1c2321;
-  --popover: #f7f8f4;
-  --popover-foreground: #1c2321;
-  --primary: #2f4a3a;
-  --primary-foreground: #eef0ea;
-  --secondary: #e2e6dc;
-  --secondary-foreground: #1c2321;
-  --muted: #e2e6dc;
-  --muted-foreground: #56605a;
-  --accent: #a8842c;
-  --accent-foreground: #1c2321;
+  --background: #f6f6f3;
+  --foreground: #16201a;
+  --card: #ffffff;
+  --card-foreground: #16201a;
+  --popover: #ffffff;
+  --popover-foreground: #16201a;
+  --primary: #2b5234;
+  --primary-foreground: #f6f6f3;
+  --secondary: #e9ece7;
+  --secondary-foreground: #16201a;
+  --muted: #e9ece7;
+  --muted-foreground: #525a54;
+  --accent: #d6186f;
+  --accent-foreground: #ffffff;
   --destructive: oklch(0.577 0.245 27.325);
-  --border: #cfd5c8;
-  --input: #cfd5c8;
-  --ring: #2f4a3a;
+  --border: #d6dad3;
+  --input: #d6dad3;
+  --ring: #2b5234;
   --radius: 0.375rem;
 }
 
