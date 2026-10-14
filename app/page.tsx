@@ -1,3 +1,4 @@
+import { AboutSection } from '@/components/about-section'
 import { ContactSection } from '@/components/contact-section'
 import { FarmSection } from '@/components/farm-section'
 import { HealthcareSection } from '@/components/healthcare-section'
@@ -12,6 +13,7 @@ export default function Page() {
       <SiteHeader />
       <main>
         <Hero />
+        <AboutSection />
         <WritingSection />
         <HealthcareSection />
         <NotarySection />
