@@ -1,6 +1,7 @@
 import { site } from '@/lib/site'
 
 const links = [
+  { href: '#about', label: 'About' },
   { href: '#writing', label: 'Writing' },
   { href: '#healthcare', label: 'Healthcare' },
   { href: '#notary', label: 'Notary' },
